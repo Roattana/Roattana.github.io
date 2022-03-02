@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: #062a54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+}
+
+/* Partie droite */
+
+.container .left{
+    position: relative;
+    background-color:#fff ;
+    padding: 40px;
+}
+
+.left__profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom:  1px solid black;
+}
+
+.img-profile{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    overflow: hidden;
+}
+.img-profile img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left__profile h2{
+    color: black;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.info{
+    padding-top: 40px;
+}
+
+h3{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.info ul{
+    position: relative;
+}
+.info ul li{  
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.1rem;
+    
+}
+
+.info ul li .icon{
+    display: flex;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+    margin-bottom: 5px;
+}
+
+.parcours li{
+    list-style: none;
+}
+.parcours {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1em;
+}
+h4{
+    color: #03a9f4;
+    padding-top: 5px;
+    
+}
+
+h5{
+    font-weight: 500;
+}
+.langue li{
+    list-style: none;
+}
+.langue .pourcentage{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #fff;
+    display: block;
+    margin-top: 5px;
+}
+
+.langue{
+   
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom:  1px solid black;
+}
+
+/* partie droite */
+.container .right {
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
